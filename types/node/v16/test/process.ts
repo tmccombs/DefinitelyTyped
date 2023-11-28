@@ -124,3 +124,5 @@ const hrtimeBigint: bigint = process.hrtime.bigint();
 process.allowedNodeEnvironmentFlags.has("asdf");
 
 process.env.TZ = "test";
+
+process.env.TZ = undefined;

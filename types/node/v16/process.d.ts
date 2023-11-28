@@ -127,7 +127,7 @@ declare module "process" {
                 /**
                  * Can be used to change the default timezone at runtime
                  */
-                TZ?: string;
+                TZ?: string|undefined;
             }
             interface HRTime {
                 (time?: [number, number]): [number, number];
